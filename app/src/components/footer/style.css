@@ -5,5 +5,10 @@
   color: white;
   background: #474747;
   text-align: center;
+  margin: 0;
+}
+
+.footer p {
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */

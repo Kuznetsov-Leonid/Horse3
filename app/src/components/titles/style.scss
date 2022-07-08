@@ -1,0 +1,36 @@
+.Title_box{
+    border-radius: 50px;
+    background: white;
+    color: black;
+    text-align: center;
+    width: 462px;
+    margin: auto;
+    h1{
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        font-size: 46px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1140px){
+    .Title_box{
+        width: 462px;
+    }
+}
+
+@media (max-width: 992px){
+    .Title_box{
+        width: 462px;
+    }
+}
+
+@media (max-width: 767px){
+    .Title_box{
+        width: 250px;
+        h1{
+            font-weight: 600;
+            font-size: 30px;
+        }
+    }
+}

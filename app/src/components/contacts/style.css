@@ -1,0 +1,95 @@
+.CardSetting {
+  background: transparent;
+  border: none;
+}
+
+.Contacts {
+  background: linear-gradient(146.87deg, #2B8180 0%, #FC712B 97.39%);
+  color: #FFFFFF;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 30px 0px 30px 0px;
+}
+
+.Footer_icon {
+  margin: 10px;
+}
+
+.Point {
+  width: 40px;
+}
+
+.SmartPhone {
+  position: relative;
+  left: 6px;
+  width: 25px;
+}
+
+.Chat {
+  width: 40px;
+}
+
+.vkontacte {
+  width: 70px;
+}
+
+.telegram {
+  width: 60px;
+}
+
+.linkIco {
+  margin: auto;
+  opacity: 60%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  width: 100px;
+  height: 75px;
+  padding: 5px;
+}
+
+.linkIco:hover {
+  opacity: 100%;
+}
+
+.linkIco:focus {
+  opacity: 100%;
+  background-color: gray;
+  -webkit-box-shadow: 0 -4px 16px #2f3640;
+          box-shadow: 0 -4px 16px #2f3640;
+}
+
+.linkIco:active {
+  opacity: 100%;
+  background-color: black;
+  -webkit-box-shadow: 0 -4px 16px #2f3640;
+          box-shadow: 0 -4px 16px #2f3640;
+}
+
+.iconX {
+  border-radius: 10px;
+}
+
+.Rider {
+  width: 100%;
+  margin: auto;
+}
+
+.mapContact {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+}
+
+@media (max-width: 992px) {
+  .none {
+    display: none;
+  }
+}
+
+@media (max-width: 294px) {
+  .noneIcon {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
