@@ -19,6 +19,7 @@ export const Header = () => {
                 variant   = 'dark' 
                 expand    = 'lg'
                 className = 'Header'
+                style     = {{'zIndex':'1'}}
             >
                 <Container>
                     <Navbar.Brand 
