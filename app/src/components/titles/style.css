@@ -5,6 +5,7 @@
   text-align: center;
   width: 462px;
   margin: auto;
+  padding-bottom: 5px;
 }
 
 .Title_box h1 {
@@ -29,6 +30,7 @@
 @media (max-width: 767px) {
   .Title_box {
     width: 250px;
+    padding-bottom: 3px;
   }
   .Title_box h1 {
     font-weight: 600;
