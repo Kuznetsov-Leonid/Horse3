@@ -25,10 +25,12 @@ const Page404 = () => {
                                     <h3>Увы... Что-то пошло не так...</h3>
                                     <h2>Попробуем начать всё сначала</h2>
                                 </div>
-                                <CustomBtn 
-                                    TITLE = 'На главную' 
-                                    HREF = '/'
-                                />
+                                <div className = "btn_aria_404">
+                                    <CustomBtn 
+                                        TITLE = 'На главную' 
+                                        HREF = '/'
+                                    />
+                                </div>
                             </Col>
                         </Row>
                     </div>

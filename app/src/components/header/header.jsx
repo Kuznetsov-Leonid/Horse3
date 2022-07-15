@@ -4,13 +4,20 @@
  *  Orlan1211@yahoo.com
  */
 
-import React from "react";
+import React, { useState } from "react";
 import './style.css';
 import Logo from '../../img/HeaderLogo.png';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { CustomBtn } from "../buttons/buttons";
+import FeedBackFormModal from "../modal/feedBackFormModal";
 
 export const Header = () => {
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+    
+
     return (
         <>
             <Navbar
@@ -57,11 +64,18 @@ export const Header = () => {
                         </Nav>
                     </div>
                     <Nav>
-                        <CustomBtn TITLE = 'Оналайн запись'/>
+                        <CustomBtn 
+                            TITLE   = 'Оналайн запись'
+                            onClick = {handleShow}
+                        />
                     </Nav>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
+            <FeedBackFormModal 
+                show   = {show} 
+                onHide = {handleClose}
+            />
         </>
     );
 }

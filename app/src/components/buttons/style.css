@@ -6,6 +6,7 @@
   border: solid 2px #FF3F3A;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  width: 100%;
 }
 
 .CustomButton_title {

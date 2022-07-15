@@ -40,6 +40,10 @@
   width: 400px;
 }
 
+.btn_aria_404 {
+  width: 15rem;
+}
+
 @media (max-width: 992px) {
   .page404 {
     text-align: center;
@@ -53,6 +57,9 @@
     margin: auto;
     width: 294px;
   }
+  .btn_aria_404 {
+    width: 100%;
+  }
 }
 
 @media (max-width: 600px) {
@@ -60,6 +67,9 @@
     text-align: center;
     padding-top: 10%;
     padding-bottom: 60%;
+  }
+  .btn_aria_404 {
+    width: 100%;
   }
 }
 

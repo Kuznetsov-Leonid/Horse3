@@ -13,14 +13,14 @@ import PrivicyCookie from "./pages/pajePrivicy/privicyCookie";
 function App() {
   return (
     <>
-      <Prelouder/>
-      <CookieBaner/>
-      <Header/>
-      <Contacts/>
-      <Page404/>
-      <PrivacyPolicy/>
-      <PrivicyCookie/>
-      <Footer/>
+      <Prelouder />
+      <CookieBaner />
+      <Header />
+      <Contacts />
+      <Page404 />
+      <PrivacyPolicy />
+      <PrivicyCookie />
+      <Footer />
     </>
   );
 }

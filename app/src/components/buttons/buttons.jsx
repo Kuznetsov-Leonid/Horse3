@@ -16,7 +16,12 @@ export const CustomBtn = (props) => {
         <>
             <Button 
                 className = "CustomButton"
-                href = {HREF}
+                href      = {HREF}
+                onClick   = {props.onClick}
+                disabled  = {props.disabled}
+                type      = {props.type}
+                value     = {props.value}
+                id        = {props.id}
             >
                 <p className = "CustomButton_title">{TITLE}</p>
             </Button>
