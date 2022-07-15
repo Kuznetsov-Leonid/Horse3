@@ -7,7 +7,8 @@ import { Contacts } from "./components/contacts/contacts";
 import { CookieBaner } from "./components/cookieBaner/cookieBaner";
 import Page404 from "./pages/paje404/paje404";
 import Prelouder from './components/prelouder/prelouder';
-
+import PrivacyPolicy from "./pages/pajePrivicy/privacyPolicy";
+import PrivicyCookie from "./pages/pajePrivicy/privicyCookie";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
       <Header/>
       <Contacts/>
       <Page404/>
+      <PrivacyPolicy/>
+      <PrivicyCookie/>
       <Footer/>
     </>
   );
