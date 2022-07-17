@@ -29,3 +29,23 @@
 .CustomButton:active{
     background-color: black;
 }
+
+.CastomCardBtn{
+    cursor: pointer;
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    border-radius: 50px;
+    border: solid 2px #FF3F3A;
+    transition: 0.3s;
+}
+.CastomCardBtn:hover{
+    border: solid 2px white;
+    transition: 0.3s;
+}
+
+.CastomCardBtn:focus{
+    background-color: gray;
+}
+
+.CastomCardBtn:active{
+    background-color: black;
+}

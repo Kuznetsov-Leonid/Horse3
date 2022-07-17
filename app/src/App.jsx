@@ -9,6 +9,7 @@ import Page404 from "./pages/paje404/paje404";
 import Prelouder from './components/prelouder/prelouder';
 import PrivacyPolicy from "./pages/pajePrivicy/privacyPolicy";
 import PrivicyCookie from "./pages/pajePrivicy/privicyCookie";
+import Services from "./components/services/services";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Prelouder />
       <CookieBaner />
       <Header />
+      <Services />
       <Contacts />
       <Page404 />
       <PrivacyPolicy />
