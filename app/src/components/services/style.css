@@ -1,5 +1,6 @@
 .Services{
     background: #474747;
-    padding: 40px 0px 40px 0px;
-    height: 50rem;
+    padding: 60px 0px 60px 0px;
+    position: relative;
+    height: auto;
 }
