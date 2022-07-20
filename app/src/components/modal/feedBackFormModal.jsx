@@ -3,7 +3,7 @@ import './style.css';
 import { useForm } from 'react-hook-form';
 import { Container, Form, FormGroup, Modal } from "react-bootstrap";
 import { CustomBtn } from "../buttons/buttons";
-import PrivacyPolicy from '../../pages/pajePrivicy/privacyPolicy';
+import PrivacyPolicy from '../../pages/pagePrivicy/privacyPolicy';
 
 const FeedBackForm = () => {
     const form = useRef();
