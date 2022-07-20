@@ -4,11 +4,19 @@ import './index.css';
 import App from './App';
 import scenary from './utils/scenary';
 import reportWebVitals from './reportWebVitals';
+import { Footer } from './components/footer/footer';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+const Root = ReactDOM.createRoot(document.getElementById('root'));
+Root.render(
   <React.StrictMode>
     <App />
+  </React.StrictMode>
+);
+
+const Fotter = ReactDOM.createRoot(document.getElementById('footer'));
+Fotter.render(
+  <React.StrictMode>
+    <Footer />
   </React.StrictMode>
 );
 
