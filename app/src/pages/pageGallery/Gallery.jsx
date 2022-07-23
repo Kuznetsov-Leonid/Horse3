@@ -1,8 +1,9 @@
 import React from "react";
+import GalleryList from "../../components/gallery/galleryList";
 
 const Gallery = () => {
     return(
-        <h1>Galllery</h1>
+        <GalleryList />
     );
 }
 
