@@ -17,6 +17,37 @@ const Iframe = () => {
     );
 }
 
+export const SocialLink = () => {
+    return (
+        <>
+            <Button 
+                variant   = 'link'
+                target    = '_blank'
+                href      = 'https://vk.com/ksk_armada'
+                className = 'linkIco'
+            >
+                <img 
+                    src       = {Vk} 
+                    alt       = 'VKontacte'
+                    className = 'vkontacte'
+                />
+            </Button>
+            <Button 
+                variant   = 'link'
+                target    = '_blank'
+                href      = 'https://t.me/ksk_armada'
+                className = 'linkIco'
+            >
+                <img 
+                    src       = {Tel}     
+                    alt       = 'Telegram'
+                    className = 'telegram' 
+                />
+            </Button>
+        </>
+    );
+}
+
 export const Contacts = () => {
     const Obj = {
         alt      : 'KSK Armada',
@@ -79,30 +110,7 @@ export const Contacts = () => {
                             <hr />
                             <div style={{'textAlign':'center'}}>
                                 <h1><b>Мы в соцсетях</b></h1>
-                                <Button 
-                                    variant   = 'link'
-                                    target    = '_blank'
-                                    href      = 'https://vk.com/ksk_armada'
-                                    className = 'linkIco'
-                                >
-                                    <img 
-                                        src       = {Vk} 
-                                        alt       = 'VKontacte'
-                                        className = 'vkontacte'
-                                    />
-                                </Button>
-                                <Button 
-                                    variant   = 'link'
-                                    target    = '_blank'
-                                    href      = 'https://t.me/ksk_armada'
-                                    className = 'linkIco'
-                                >
-                                    <img 
-                                        src       = {Tel}     
-                                        alt       = 'Telegram'
-                                        className = 'telegram' 
-                                    />
-                                </Button>
+                                <SocialLink/>
                             </div>
                             <div style={{'textAlign':'center', 'margin':'20px'}}>
                                 <h6>СТАТИСТИКА</h6>

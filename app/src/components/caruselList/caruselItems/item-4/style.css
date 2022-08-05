@@ -1,0 +1,76 @@
+.CaruselItem_4 {
+  background: linear-gradient(281.74deg, #FC712B 26.02%, #AB3900 91.79%);
+  height: 45rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+.CaruselItem_4 .CaruselItem_4_conent {
+  background: none;
+  border: none;
+  color: white;
+}
+
+@media (min-width: 1200px) {
+  .CaruselItem_4 {
+    padding: 5rem 0;
+  }
+  .link3_cont {
+    padding: 13rem 0;
+  }
+}
+
+@media (max-width: 1199px) {
+  .CaruselItem_4 {
+    padding: 6rem 0;
+  }
+  .link3_cont {
+    padding: 13rem 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .CaruselItem_4 {
+    padding: 10rem 0;
+  }
+  .link3_cont {
+    padding: 8rem 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .CaruselItem_4 {
+    padding: 15rem 0;
+  }
+  .link3_cont {
+    padding: 2rem 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .CaruselItem_4 {
+    padding: 2rem 3rem;
+  }
+  .link3_cont {
+    padding: 1rem 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .CaruselItem_4 {
+    padding: 2rem 1rem;
+  }
+  .link3_cont {
+    padding: 1rem 0;
+  }
+}
+
+@media (max-width: 330px) {
+  .CaruselItem_4 {
+    padding: 7rem 1rem;
+  }
+  .link3_cont {
+    padding: 1rem 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
