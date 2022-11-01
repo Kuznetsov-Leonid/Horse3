@@ -1,0 +1,87 @@
+.CaruselItem_2 {
+  background: linear-gradient(105.25deg, #656872 0%, #FD9319 100%);
+  height: 45rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+}
+
+.CaruselItem_2 .CaruselItem_2_conent {
+  background: none;
+  border: none;
+  color: white;
+}
+
+@media (min-width: 1200px) {
+  .CaruselItem_2_conent h1 {
+    font-size: 80px;
+  }
+  .CaruselItem_2_conent h3 {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .CaruselItem_2_conent h1 {
+    font-size: 70px;
+  }
+  .CaruselItem_2_conent h3 {
+    font-size: 38px;
+  }
+}
+
+@media (min-width: 992px) {
+  .CaruselItem_2 {
+    padding: 13rem 25px;
+  }
+  .CaruselItem_2_conent_btn {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+}
+
+@media (max-width: 991px) {
+  .CaruselItem_2 {
+    padding: 15rem 25px;
+  }
+  .CaruselItem_2 .CaruselItem_2_conent h1 {
+    font-size: 50px;
+  }
+  .CaruselItem_2 .CaruselItem_2_conent h3 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 575px) {
+  .CaruselItem_2 {
+    padding: 5rem 25px;
+  }
+  .CaruselItem_2 .CaruselItem_2_conent h1 {
+    font-size: 60px;
+  }
+  .CaruselItem_2 .CaruselItem_2_conent h3 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 515px) {
+  .CaruselItem_2 .CaruselItem_2_conent h1 {
+    font-size: 40px;
+  }
+  .CaruselItem_2 .CaruselItem_2_conent h3 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 400px) {
+  .CaruselItem_2 {
+    padding: 10rem 25px;
+  }
+  .CaruselItem_2 .CaruselItem_2_conent h1 {
+    font-size: 40px;
+  }
+  .CaruselItem_2 .CaruselItem_2_conent h3 {
+    font-size: 25px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
